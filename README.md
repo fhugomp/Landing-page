@@ -52,7 +52,7 @@ Abra o arquivo `index.html` diretamente no seu navegador de preferência para vi
 
 O projeto está hospedado no GitHub Pages e pode ser acessado em tempo real pelo link abaixo:
 
-**[Acessar a Landing Page ao vivo](https://fhugomp.github.io/Landing-page/)**
+**[Acessar a Landing Page](https://fhugomp.github.io/Landing-page/)**
 
 -----
 
