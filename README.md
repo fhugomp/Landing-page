@@ -1,69 +1,55 @@
-# Projeto Landing Page Responsiva
+# Landing Page Responsiva
 
-**Uma landing page moderna e totalmente responsiva, desenvolvida do zero com HTML, CSS e JavaScript para praticar conceitos de desenvolvimento web front-end.** 🎓
+Este repositório contém o código-fonte de uma interface web estática do tipo *Landing Page*, desenvolvida nativamente com HTML5, CSS3 e JavaScript. O projeto tem como foco a aplicação de práticas de estruturação semântica, design adaptativo para múltiplos *breakpoints* e manipulação do Modelo de Objeto de Documentos (DOM) na camada do cliente.
 
------
+## 1. Arquitetura e Engenharia de Interface
 
-## 📌 Descrição
+A aplicação opera estritamente na camada de apresentação (Front-end), com sua estrutura visual e interativa segmentada nos seguintes pilares:
 
-Este projeto consiste na criação de uma landing page completa e funcional. O objetivo foi construir uma interface web moderna, a partir de um design pré-definido, aplicando conhecimentos essenciais de front-end para garantir que o site seja visualmente atraente e perfeitamente funcional em diferentes tamanhos de tela (desktop e mobile).
+### 1.1. Estrutura Semântica e Componentização (HTML5)
+A interface é baseada em uma arquitetura de página única (*Single-Page*), particionada em seções de conteúdo sequencial: *Intro*, *Top 3*, *Jobs*, *Gallery*, *Pricing* e *Contact*. A marcação semântica garante a organização do fluxo de informação e facilita a navegação ancorada.
 
-A página possui múltiplas seções, navegação com rolagem suave e um menu "hambúrguer" para dispositivos móveis.
+### 1.2. Design Responsivo e Estilização (CSS3)
+* **Controle de Layout:** Utilização de *Media Queries* para a adaptação fluida da interface geométrica em diferentes resoluções de tela (ambientes *desktop*, *tablet* e *mobile*).
+* **Identidade Visual:** Implementação de uma paleta de cores orientada a um tema escuro (*Dark Mode*), com controle rigoroso de tipografia e espaçamentos globais.
+* **Navegação Fixa:** Barra de navegação com comportamento de fixação superior (estática) para garantir acesso contínuo ao roteamento interno.
 
-## ✨ Funcionalidades e Características
+### 1.3. Interatividade e Comportamento (JavaScript Vanilla)
+A camada de script é responsável pela orquestração de eventos e gerenciamento de estado da interface de usuário (UI):
+* **Navegação Dinâmica:** Implementação de rolagem suave (*smooth scrolling*) ao acionar âncoras no menu de roteamento.
+* **Menu Mobile:** Lógica de manipulação de estado para acionamento e recolhimento do menu de navegação adaptativo (tipo *hambúrguer*) em resoluções limitadas.
 
-  - 📱 **Layout 100% Responsivo:** Adapta-se perfeitamente a telas de desktops, tablets e smartphones.
-  - 🧭 **Navegação Fixa e Inteligente:** O menu de navegação permanece no topo da página e direciona o usuário para as seções corretas com um efeito de rolagem suave.
-  - 🍔 **Menu Mobile:** Um menu "hambúrguer" funcional para facilitar a navegação em telas menores.
-  - 📄 **Estrutura de Múltiplas Seções:** A página é dividida em seções claras e bem definidas, como:
-      - Intro
-      - Top 3
-      - Jobs
-      - Gallery
-      - Pricing
-      - Contact
-  - 🎨 **Estilização Moderna:** Uso de CSS para criar um tema escuro (dark mode), com tipografia e espaçamentos consistentes.
+## 2. Requisitos de Ambiente
 
-## 🚀 Tecnologias Utilizadas
+Por se tratar de uma aplicação de arquivos estáticos estritos (*Vanilla*), o projeto é *plug-and-play* e não exige o instanciamento de servidores locais, gerenciadores de pacotes ou processos de compilação (*build*).
 
-  - **HTML5** 🌐 (para a estrutura semântica da página)
-  - **CSS3** 🎨 (para estilização, responsividade com Media Queries e layout)
-  - **JavaScript** JS (para a interatividade do menu mobile e outros elementos dinâmicos)
+## 3. Instruções de Execução Local
 
-## 🛠️ Como Visualizar Localmente
-
-O projeto é composto por arquivos estáticos e não requer um servidor ou instalação de dependências para ser executado.
-
-### 1️⃣ Clonar o repositório
-
+1. Realize a clonagem do repositório localmente:
 ```bash
 git clone https://github.com/fhugomp/Landing-page.git
 ```
 
+2. Acesse o diretório do projeto:
 ```bash
 cd Landing-page
 ```
 
-### 2️⃣ Abrir no Navegador
+3. Inicialize a aplicação:
+Abra o arquivo `index.html` na raiz do diretório através de qualquer navegador web moderno.
 
-Abra o arquivo `index.html` diretamente no seu navegador de preferência para visualizar o projeto.
+## 4. Implantação e Demonstração Online
 
-## 🌐 Acesso Online
+O projeto encontra-se hospedado e servido de forma contínua através da infraestrutura de arquivos estáticos do GitHub Pages.
 
-O projeto está hospedado no GitHub Pages e pode ser acessado em tempo real pelo link abaixo:
+> **Ambiente de Produção:** [Acessar a Landing Page](https://fhugomp.github.io/Landing-page/)
 
-**[Acessar a Landing Page](https://fhugomp.github.io/Landing-page/)**
+## 5. Referência Visual (Preview)
 
------
+### Interface Desktop
+![Versão do desktop](./assets/images/Desktop-version.jpeg)
 
-## 🖼️ Preview
- 
- <h2>Versão de Desktop:</h2>
- 
- <img src="./assets/images/Desktop-version.jpeg" alt="Versão do desktop" />
- 
- 
-<h2>Versão do Mobile:</h2>
-<p  align="center">
-<img src="./assets/images/Mobile-version.jpeg" alt="Versão do Mobile" style= "height: 750px;"/>
+### Interface Mobile
+<p align="center">
+  <img src="./assets/images/Mobile-version.jpeg" alt="Versão do Mobile" style="height: 750px;"/>
 </p>
